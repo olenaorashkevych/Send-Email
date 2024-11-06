@@ -10,4 +10,6 @@ form.addEventListener('submit', (e) => {
         body: formdata
     })
 
+    form.innerHTML = '<h1>Success send email!</h1>';
+
 })
